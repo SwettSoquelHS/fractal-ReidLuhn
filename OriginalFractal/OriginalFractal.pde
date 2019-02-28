@@ -11,6 +11,8 @@ void draw(){
   myFractal((float)(180 * Math.cos(sourceAngle)), -(float)(180 * Math.sin(sourceAngle)), (float)(180 * Math.sin(sourceAngle)), (float)(180 * Math.sin(sourceAngle)));
   fill(255);
   myFractal(-(float)(180 * Math.cos(sourceAngle)), (float)(180 * Math.sin(sourceAngle)),(float)(180 * Math.sin(sourceAngle)), (float)(180 * Math.sin(sourceAngle)));
+  fill(255);
+  myFractal(-(float)(180 * Math.cos(sourceAngle)), -(float)(180 * Math.sin(sourceAngle)),(float)(180 * Math.sin(sourceAngle)), (float)(180 * Math.sin(sourceAngle)));
   
 }
 
